@@ -1,0 +1,159 @@
+/* media query for large device */
+@media all and (max-width:1270px) {
+    section{
+        padding: 0 2em;
+    }
+    /* banner */
+    .banner{
+        background-position: 75% 20%;
+    }
+    .banner .container .banner-box h1{
+        font-size: 2.1em;
+    }
+
+    /* banner box */
+    .banner-box-wrapper{
+        padding: 0;
+    }
+    .banner-box-wrapper .banner-box{
+        padding: 2em;
+    }
+
+    /* learn more and chose us secton css */
+    .learn-more .w50:first-child,
+    .chose-us .w50:last-child{
+        padding: 3em;
+    }
+}
+
+/* media query for laptop */
+@media all and (max-width:1024px) {
+    body{
+        font-size: 15px;
+    }
+    /* banner section */
+    .banner .container .banner-text h1{
+        font-size: 3em;
+    }
+    .banner-box-wrapper .banner-box{
+        padding: 1.5em;
+    }
+
+    /* service box grid */
+    .servie_card_wrapper{
+        grid-template-columns: repeat(2, minmax(280px, 380px));
+    }
+    
+    /* learn more and chose us secton css */
+    .learn-more .w50:first-child,
+    .chose-us .w50:last-child{
+        padding: 2em;
+    }
+    .learn-more .w50:first-child h2,
+    .chose-us .w50:last-child h2{
+        font-size: 2em;
+    }
+}
+
+/* media query for tablet */
+@media all and (max-width:768px) {
+    body{
+        font-size: 12px;
+    }
+    /* banner */
+    .banner{
+        height: 90vh;
+        background-size: cover;
+        position: relative;
+        background-position: 90% 20%;
+    }
+    .banner .container .banner-text{
+        position: absolute;
+        bottom:  0;
+        left: 50%;
+        background: rgba(255,255,255,0.6);
+        padding: 2em;
+        transform: translate(-50%,0);
+        width: 90%;
+    }
+    .banner .container .banner-text h1{
+        font-size: 2.5em;
+    }
+    .banner .container .banner-text *{
+        width: fit-content;
+    }
+    .banner .container .banner-text p{
+        font-size: 1.5em;
+    }
+
+    /* banner box css */
+    .banner-box-wrapper{
+        flex-wrap: wrap;
+    }
+    .banner-box-wrapper .banner-box{
+        flex: 0 1 100%;
+        padding:4em 2em;
+    }
+
+    /* service box grid */
+    .servie_card_wrapper{
+        grid-template-columns: repeat(1, minmax(280px, 380px))
+    }
+
+    /* chose us and learn more css */
+    .chose-us,
+    .learn-more{
+        flex-wrap: wrap;
+        height: auto !important;
+    }
+    .chose-us .left,
+    .chose-us .right,
+    .learn-more .w50:first-child,
+    .learn-more .w50:last-child{
+        flex-basis: 100%;
+    }
+    .learn-more .w50:first-child h2,
+    .chose-us .w50:last-child h2{
+        font-size: 2em;
+    }
+    /* get know section */
+    .get-know{
+        padding: 1em 2em;
+    }
+    .get-know .container a{
+        height: fit-content;
+        align-items: center;
+    }
+}
+
+/* media query for until 650px */
+@media all and (max-width:650px) {
+    .banner .container .banner-text p{
+        font-size: 1.3em;
+    }
+    
+}
+
+/* media query for large mobile */
+@media all and (max-width:425px) {
+    /* ========================= */
+}
+
+/* media query for madium moblie */
+@media all and (max-width:375px) {
+    /* ========================= */
+}
+
+/* media query for extra smaill device */
+@media all and (max-width:200px) {
+    *{
+        overflow: scroll;
+    }
+}
+
+/* ===================================================
+* all code are writen by Soriful Chalehin. 
+* facebook: https://facebook.com/Chalehin
+* thank you.
+* ====================================================
+*/
