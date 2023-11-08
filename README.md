@@ -2,7 +2,7 @@
 ### This is an Open Sourse project, you can contribute as a contributer.
 <span> - Soriful Chalehin. </span>
 
-<img src="img/website-preview.jpg">
+<img src="images/website-preview.jpg">
 
 <p>live link of this repo: <a href=https://soriful-chalehin.github.io/businessCo-template/>visit</a> </p>
 
